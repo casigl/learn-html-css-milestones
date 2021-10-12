@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic CSS Page</title>
+  <style>
+
+
+    h1, h2{
+      color: white;
+    }
+    h1{
+      font-size: 70px;
+      font-style: italic;
+    }
+    body p{
+      color: white;
+      text-align: center;
+      text-transform: lowercase;
+      font-weight: bold;
+      background-image: url('../assets/img/flannel.png');
+      margin-left: 200px;
+      margin-right: 200px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+    }
+    li{
+      line-height: 5em;
+      letter-spacing: 0.2em;
+      list-style-type: square;
+      border-style: solid;
+    }
+
+    li > blockquote{
+      color: red;
+    }
+
+    body{
+      font-family: sans-serif;
+      background-color: pink;
+
+    }
+
+    #first_p{
+      font-family: serif;
+    }
+
+    .useless_text{
+      font-size: 12px;
+    }
+
+
+  </style>
+</head>
+
+
+<body>
+  <h1>CSS Excercise</h1>
+
+  <p id= "first_p">Here is some text in all lowercase. Also, here are the lyrics from Michael Bolton's song again, I Can Go the Distance so that I have some text to format:</p>
+    <ul class = "useless_text">
+      <li>
+        I have often dreamed of a far off place Where a hero's welcome would be waiting for me Where the crowds would cheer, when they see my face And a voice keeps saying this is where I'm meant to be I'll be there someday, I can go the distance I will find my way if I can be strong I know every mile would be worth my while When I go the distance, I'll be right where I belong Down an unknown road to embrace my fate Though that road may wander, it will lead me to you And a thousand years would be worth the wait It might take a lifetime but somehow I'll see it through And I won't look back, I can go the distance And I'll stay on track, no I won't accept defeat It's an uphill slope But I won't loose hope, 'till I go the distance And my journey is complete, oh yeah But to look beyond the glory is the hardest part For a hero's strength is measured by his heart, oh Like a shooting star, I will go the distance I will search the world, I will face its harms I don't care how far, I can go the distance 'Till I find my hero's welcome waiting in your arms I will search the world, I will face its harms 'Till I find my hero's welcome waiting in your arms.
+      </li>
+      <li>
+      <ul>
+        <li><blockquote>Here is a nested list.</blockquote></li>
+      </ul>
+    </li>
+    </ul>
+
+  <p id= "second_p" class = "useless_text">Here is a second paragraph to show how id's work.</p>
+
+
+  <img src = '../assets/img/puppy.png' alt = "A cute dog." width=  250 height= 200>
+
+
+
+</body>
